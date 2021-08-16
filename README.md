@@ -3,7 +3,7 @@ public class JavaExample
 {
     public static void main(String args[]) 
     {
-        float p, r, t, sinterest;
+        float p, r, t, interest;
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the Principal : ");
         p = scan.nextFloat();
@@ -12,7 +12,7 @@ public class JavaExample
         System.out.print("Enter the Time period : ");
         t = scan.nextFloat();
         scan.close();
-        sinterest = (p * r * t) / 100;
+        interest = (p * r * t) / 100;
         System.out.print("Simple Interest is: " +sinterest);
     }
 }
